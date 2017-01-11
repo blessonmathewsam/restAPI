@@ -1,0 +1,22 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "A user data API",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha app/user/user.spec.js",
+    "start": "node server.js"
+  },
+  "author": "Blesson Mathew Sam",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "express": "*",
+    "faker": "^3.1.0",
+    "mocha": "^3.2.0",
+    "mongoose": "*",
+    "sinon": "^1.17.7"
+  }
+}
